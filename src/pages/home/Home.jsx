@@ -1,4 +1,4 @@
-import styles from "./home.module.css";
+import { useNavigate } from "react-router";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -7,8 +7,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material";
 import Box from "@mui/material/Box";
-import Figuras from "../../core/assets/images/figuras.png";
-import CorpoProtesto from "../../core/assets/images/corpo-protesto.png";
 import Corpo from "../../core/assets/images/humanidades/corpo.png";
 import Ailton from "../../core/assets/images/humanidades/ailton.png";
 import Ailton2 from "../../core/assets/images/humanidades/ailton2.png";
@@ -18,6 +16,39 @@ import Movimento from "../../core/assets/images/humanidades/movimento.png";
 import Carrossel from "../../core/components/Carrossel/Carrossel";
 
 export default function Home() {
+
+  const navigate = useNavigate(); 
+
+  function handlebutton1(){
+    scroll(0, 0);
+    navigate('/ailtonKrenak')
+  }
+
+  function handlebutton2(){
+    scroll(0, 0);
+    navigate('/movimentoIndigena')
+  }
+
+  function handlebutton3(){
+    scroll(0, 0);
+    navigate('/corpoProtesto')
+  }
+
+  function handlebutton4(){
+    scroll(0, 0);
+    navigate('/figurasImportantes')
+  }
+
+  function handlebutton5(){
+    scroll(0, 0);
+    navigate('/visaoHumanidade')
+  }
+
+  function handlebutton6(){
+    scroll(0, 0);
+    navigate('/oQueFicou')
+  }
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <div>
@@ -48,7 +79,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton1} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
@@ -79,7 +110,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton2} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
@@ -109,7 +140,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton3} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
@@ -138,7 +169,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton4} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
@@ -168,7 +199,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton5} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
@@ -198,7 +229,7 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button style={{ color: "#00695c" }} size="small">
+              <Button onClick={handlebutton6} style={{ color: "#00695c" }} size="small">
                 Saiba mais
               </Button>
             </CardActions>
