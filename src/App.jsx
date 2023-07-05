@@ -1,4 +1,4 @@
-import Home from "./pages/Home/Home";
+import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
 import Header from "./core/components/Header/Header";
 import Footer from "./core/components/Footer/Footer";
@@ -12,17 +12,17 @@ import OQueFicou from "./pages/OQueFIcou/OQueFicou";
 function App() {
   return (
     <>
-        <Header />
-        <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/ailtonKrenak" element={<AiltonKrenak />} />
-            <Route path="/movimentoIndigena" element={<MovimentoIndigena />} />
-            <Route path="/corpoProtesto" element={<CorpoProtesto />} />
-            <Route path="/figurasImportantes" element={<FigurasImportantes />}/>
-            <Route path="/VisaoHumanidade" element={<VisaoHumanidade />} />
-            <Route path="/oQueFicou" element={<OQueFicou />} />
-        </Routes>
-        <Footer />
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/ailtonKrenak" element={<AiltonKrenak />} />
+        <Route path="/movimentoIndigena" element={<MovimentoIndigena />} />
+        <Route path="/corpoProtesto" element={<CorpoProtesto />} />
+        <Route path="/figurasImportantes" element={<FigurasImportantes />} />
+        <Route path="/VisaoHumanidade" element={<VisaoHumanidade />} />
+        <Route path="/oQueFicou" element={<OQueFicou />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

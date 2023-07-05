@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/Home/Home";
+import Home from "../pages/home/Home";
 import AiltonKrenak from "../pages/AiltonKrenak/AiltonKrenak";
 import MovimentoIndigena from "../pages/MovimentoIndigena/MovimentoIndigena";
 import CorpoProtesto from "../pages/CorpoProtesto/CorpoProtesto";
@@ -13,12 +13,12 @@ function RoutesConfig() {
     <Routes>
       <Route path={"/"} element={<Home />} />
       <Route path={"home"} element={<Home />} />
-      <Route path="/ailtonKrenak" element={<AiltonKrenak/>} />
+      <Route path="/ailtonKrenak" element={<AiltonKrenak />} />
       <Route path="/movimentoIndigena" element={<MovimentoIndigena />} />
       <Route path="/corpoProtesto" element={<CorpoProtesto />} />
       <Route path="/figurasImportantes" element={<FigurasImportantes />} />
       <Route path="/visaoHumanidade" element={<VisaoHumanidade />} />
-      <Route path="/oQueFicou" element={<OQueFicou/>} />
+      <Route path="/oQueFicou" element={<OQueFicou />} />
     </Routes>
   );
 }
