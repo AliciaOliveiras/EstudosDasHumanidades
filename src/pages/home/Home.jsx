@@ -88,7 +88,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton1}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold'}}
                 size="small"
               >
                 Saiba mais
@@ -129,7 +129,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton2}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold' }}
                 size="small"
               >
                 Saiba mais
@@ -169,7 +169,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton3}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold' }}
                 size="small"
               >
                 Saiba mais
@@ -208,7 +208,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton4}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold'}}
                 size="small"
               >
                 Saiba mais
@@ -248,7 +248,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton5}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold' }}
                 size="small"
               >
                 Saiba mais
@@ -288,7 +288,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton6}
-                style={{ color: "#00695c" }}
+                style={{ color: "#00695c", fontWeight: 'bold' }}
                 size="small"
               >
                 Saiba mais
