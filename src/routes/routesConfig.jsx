@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "../pages/home/Home";
+import Home from "../pages/Home/Home";
 import AiltonKrenak from "../pages/AiltonKrenak/AiltonKrenak";
 import MovimentoIndigena from "../pages/MovimentoIndigena/MovimentoIndigena";
 import CorpoProtesto from "../pages/CorpoProtesto/CorpoProtesto";
