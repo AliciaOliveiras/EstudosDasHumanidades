@@ -56,17 +56,16 @@ export default function Home() {
     </div>
       <Grid container spacing={1}>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray'}}>
+          <Card sx={{ maxWidth: 800,  minHeight: 410, /* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray'}}>
             <CardMedia
               component="img"
               alt="ailton krenak"
-              height="250"
+              height="200"
               src={Ailton}
             />
             <CardContent>
               <h4
                 style={{ color: "#00695c", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
@@ -86,17 +85,16 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card sx={{ maxWidth: 800, minHeight: 410, /* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
             <CardMedia
               component="img"
               alt="movimento indígena"
-              height="250"
+              height="200"
               src={Movimento}
             />
             <CardContent>
               <h4
                 style={{ color: "#00695c", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
@@ -117,17 +115,16 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
             <CardMedia
               component="img"
               alt="ailton krenak"
-              height="250"
+              height="200"
               src={Corpo}
             />
             <CardContent>
               <h4
                 style={{ color: "#078272", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
@@ -147,17 +144,16 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px",  */margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
             <CardMedia
               component="img"
               alt="figuras importantes"
-              height="250"
+              height="200"
               src={Representantes}
             />
             <CardContent>
               <h4
                 style={{ color: "#00695c", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
@@ -176,17 +172,16 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
             <CardMedia
               component="img"
               alt="livros"
-              height="250"
+              height="200"
               src={Producoes}
             />
             <CardContent>
               <h4
                 style={{ color: "#00695c", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
@@ -206,17 +201,16 @@ export default function Home() {
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, height: "450px", margin: "1rem",boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card sx={{ maxWidth: 800, minHeight: 410, /* height: "450px", */ margin: "1rem",boxShadow: '5px 3px 6px 1px lightGray' }}>
             <CardMedia
               component="img"
               alt="ailton krenak"
-              height="250"
+              height="200"
               src={Ailton2}
             />
             <CardContent>
               <h4
                 style={{ color: "#00695c", fontStyle: "bold" }}
-                gutterBottom
                 variant="h5"
                 component="div"
               >
