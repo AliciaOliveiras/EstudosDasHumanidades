@@ -1,12 +1,14 @@
 import { useNavigate } from "react-router";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { Grid } from "@mui/material";
-import Box from "@mui/material/Box";
+import {
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+  Button,
+  Typography,
+  Grid,
+  Box,
+} from "@mui/material";
 import Corpo from "../../core/assets/images/humanidades/corpo.png";
 import Ailton from "../../core/assets/images/humanidades/ailton.png";
 import Ailton2 from "../../core/assets/images/humanidades/ailton2.png";
@@ -16,47 +18,53 @@ import Movimento from "../../core/assets/images/humanidades/movimento.png";
 import Carrossel from "../../core/components/Carrossel/Carrossel";
 
 export default function Home() {
+  const navigate = useNavigate();
 
-  const navigate = useNavigate(); 
-
-  function handlebutton1(){
+  function handlebutton1() {
     scroll(0, 0);
-    navigate('/ailtonKrenak')
+    navigate("/ailtonKrenak");
   }
 
-  function handlebutton2(){
+  function handlebutton2() {
     scroll(0, 0);
-    navigate('/movimentoIndigena')
+    navigate("/movimentoIndigena");
   }
 
-  function handlebutton3(){
+  function handlebutton3() {
     scroll(0, 0);
-    navigate('/corpoProtesto')
+    navigate("/corpoProtesto");
   }
 
-  function handlebutton4(){
+  function handlebutton4() {
     scroll(0, 0);
-    navigate('/figurasImportantes')
+    navigate("/figurasImportantes");
   }
 
-  function handlebutton5(){
+  function handlebutton5() {
     scroll(0, 0);
-    navigate('/visaoHumanidade')
+    navigate("/visaoHumanidade");
   }
 
-  function handlebutton6(){
+  function handlebutton6() {
     scroll(0, 0);
-    navigate('/oQueFicou')
+    navigate("/oQueFicou");
   }
 
   return (
     <Box sx={{ flexGrow: 1 }}>
       <div>
-      <Carrossel/>
-    </div>
+        <Carrossel />
+      </div>
       <Grid container spacing={1}>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800,  minHeight: 410, /* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray'}}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px", */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="ailton krenak"
@@ -78,14 +86,25 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton1} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton1}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, minHeight: 410, /* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px", */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="movimento indígena"
@@ -108,14 +127,25 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton2} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton2}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px", */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="ailton krenak"
@@ -137,14 +167,25 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton3} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton3}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px",  */margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px",  */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="figuras importantes"
@@ -165,14 +206,25 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton4} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton4}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, minHeight: 410,/* height: "450px", */ margin: "1rem", boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px", */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="livros"
@@ -194,14 +246,25 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton5} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton5}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
           </Card>
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <Card sx={{ maxWidth: 800, minHeight: 410, /* height: "450px", */ margin: "1rem",boxShadow: '5px 3px 6px 1px lightGray' }}>
+          <Card
+            sx={{
+              maxWidth: 800,
+              minHeight: 410,
+              /* height: "450px", */ margin: "1rem",
+              boxShadow: "5px 3px 6px 1px lightGray",
+            }}
+          >
             <CardMedia
               component="img"
               alt="ailton krenak"
@@ -223,7 +286,11 @@ export default function Home() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button onClick={handlebutton6} style={{ color: "#00695c" }} size="small">
+              <Button
+                onClick={handlebutton6}
+                style={{ color: "#00695c" }}
+                size="small"
+              >
                 Saiba mais
               </Button>
             </CardActions>
