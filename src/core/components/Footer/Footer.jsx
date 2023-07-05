@@ -1,14 +1,7 @@
 import * as React from "react";
-import Link from "@mui/material/Link";
 import { Box } from "@mui/material";
 import {
-  Card,
-  CardContent,
-  CardMedia,
   Container,
-  Paper,
-  ThemeProvider,
-  Grid,
   Typography,
 } from "@mui/material";
 
