@@ -1,14 +1,9 @@
 import * as React from "react";
-import { Box } from "@mui/material";
-import {
-  Container,
-  Typography,
-} from "@mui/material";
 
 function Footer() {
   return (
-    <Box
-      sx={{
+    <div
+      style={{
         backgroundColor: "#078272",
         display: "flex",
         justifyContent: "space-between",
@@ -16,37 +11,37 @@ function Footer() {
         padding: "1rem",
         width: "100%",
       }}
-      component="footer"
     >
-      <Container
+      <div
         style={{
           display: "flex",
           gap: "1rem",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
+          width: '100%',
+          color: "white"
         }}
-        maxWidth="lg"
       >
-        <Typography variant="body3" color="white">
+        <h5 color="white">
           Alícia
-        </Typography>
+        </h5>
 
-        <Typography variant="body3" color="white">
+        <h5 color="white">
           Ana Clara
-        </Typography>
+        </h5>
 
-        <Typography variant="body3" color="white">
+        <h5 color="white">
           Clara
-        </Typography>
+        </h5>
 
-        <Typography variant="body3" color="white">
+        <h5  color="white">
           Cibele
-        </Typography>
+        </h5>
 
-        <Typography variant="body3" color="white">
+        <h5 color="white">
           Victoria
-        </Typography>
-      </Container>
-    </Box>
+        </h5>
+      </div>
+    </div>
   );
 }
 

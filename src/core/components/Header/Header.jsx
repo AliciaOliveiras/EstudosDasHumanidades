@@ -7,11 +7,11 @@ function Header() {
   return (
 <>
 <div style={{backgroundColor: '#078272', display: 'flex', justifyContent:'center', alignItems: "center", padding: '1rem', color: 'white'}} position="static">
-      <Toolbar style={{display: 'grid'}} >
-      <Typography style={{fontFamily: 'Poppins, sans-serif', fontSize: '1.5rem'}}>
+      <div style={{display: 'grid'}} >
+      <h3 style={{fontFamily: 'Poppins, sans-serif', fontSize: '1.5rem'}}>
           HACA03 - Estudos das Humanidades
-        </Typography>
-      </Toolbar>
+        </h3>
+      </div>
     </div>
 </>
   );
