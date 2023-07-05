@@ -1,6 +1,6 @@
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
-import Header from "./core/components/Header/header";
+import Header from "./core/components/Header/Header";
 import Footer from "./core/components/Footer/Footer";
 import AiltonKrenak from "./pages/AiltonKrenak/AiltonKrenak";
 import MovimentoIndigena from "./pages/MovimentoIndigena/MovimentoIndigena";
