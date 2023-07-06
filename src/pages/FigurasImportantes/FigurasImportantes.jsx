@@ -157,7 +157,7 @@ export default function FigurasImportantes() {
                 <CardMedia
                   component="img"
                   height="300"
-                  image="https://i.em.com.br/l38oLGx7-rLnpdK07lum81WqrCw=/790x/smart/imgsapp.em.com.br/app/noticia_127983242361/2021/07/24/1289507/20210723200545199721a.jpg"
+                  image="https://istoe.com.br/wp-content/uploads/2016/01/mi_1488186072688943.jpg"
                   alt="Daniel Munduruku"
                 />
                 <CardContent>
