@@ -10,6 +10,8 @@ function Footer() {
         alignItems: "center",
         padding: "1rem",
         width: "100%",
+        position: 'relative',
+        bottom: 0,
       }}
     >
       <div
