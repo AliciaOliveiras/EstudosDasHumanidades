@@ -18,11 +18,11 @@ export default function AiltonKrenak() {
           color: "white",
           padding: "0.5rem",
           borderRadius: "2rem",
-          width: "8rem",
+          width: "6rem",
           margin: "1rem",
           right: 0,
           border: "none",
-          top: "7rem",
+          top: "2rem",
         }}
       >
         Voltar
@@ -42,15 +42,20 @@ export default function AiltonKrenak() {
             textAlign: "justify",
           }}
         >
-          <p>
-            Ailton Alves Lacerda Krenak OMC, mais conhecido como Ailton Krenak
-            (Mantena 29 de setembro de 1953), é um líder indígena,
-            ambientalista, filósofo, poeta e escritor brasileiro da etnia
-            indígena crenaque. Ailton é também professor Honoris Causa pela
-            Universidade Federal de Juiz de Fora (UFJF) e é considerado uma das
-            maiores lideranças do movimento indígena brasileiro, possuindo
-            reconhecimento internacional.
-          </p>
+          <h6
+            style={{
+              fontSize: "20px",
+              marginLeft: "3rem",
+              marginRight: "3rem",
+            }}
+          >
+            Ailton Alves Lacerda Krenak OMC, mais conhecido como Ailton Krenak,
+            é um líder indígena, ambientalista, filósofo, poeta e escritor
+            brasileiro da etnia indígena crenaque. Ailton é também professor
+            Honoris Causa pela Universidade Federal de Juiz de Fora (UFJF) e é
+            considerado uma das maiores lideranças do movimento indígena
+            brasileiro, possuindo reconhecimento internacional.
+          </h6>
           <br />
           <br />
           <p></p>

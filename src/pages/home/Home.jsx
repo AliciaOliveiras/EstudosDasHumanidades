@@ -223,7 +223,6 @@ export default function Home() {
               minHeight: 410,
               /* height: "450px", */ margin: "1rem",
               boxShadow: "5px 3px 6px 1px lightGray",
-              marginBottom: '5rem'
             }}
           >
             <CardMedia
@@ -264,7 +263,6 @@ export default function Home() {
               minHeight: 410,
               /* height: "450px", */ margin: "1rem",
               boxShadow: "5px 3px 6px 1px lightGray",
-              marginBottom: '5rem'
             }}
           >
             <CardMedia

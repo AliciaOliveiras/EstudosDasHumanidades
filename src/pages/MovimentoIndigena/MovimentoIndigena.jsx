@@ -18,18 +18,18 @@ export default function MovimentoIndigena(){
           color: "white",
           padding: "0.5rem",
           borderRadius: "2rem",
-          width: "8rem",
+          width: "6rem",
           margin: "1rem",
           right: 0,
           border: "none",
-          top: "7rem",
+          top: "2rem",
         }}
       >
         Voltar
       </button>
       <div style={{ backgroundColor: "white", height: "100vh" }}>
 
-        
+
       </div>
        </>
     )
