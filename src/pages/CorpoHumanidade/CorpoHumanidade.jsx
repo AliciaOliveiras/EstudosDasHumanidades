@@ -33,13 +33,13 @@ export default function CorpoHumanidade() {
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "black",
+          backgroundColor: "white",
         }}
       >
         <div
           style={{
             width: "85%",
-            backgroundColor: "black",
+            backgroundColor: "white",
             justifyContent: "center",
             alignItems: "center",
             textAlign: "justify",
@@ -64,7 +64,7 @@ export default function CorpoHumanidade() {
                 fontSize: "30px",
                 textAlign: "center",
                 marginBottom: "2rem",
-                color: "white",
+                color: "#078272",
               }}
             >
               Corpo na Humanidade
@@ -80,9 +80,8 @@ export default function CorpoHumanidade() {
             <h6
               style={{
                 marginBottom: "1rem",
-                color: "white",
                 marginTop: "2rem",
-                lineHeight: '20px'
+                lineHeight: '23px'
               }}
             >
               Na perspectiva de Ailton Krenak, o corpo é compreendido como uma
