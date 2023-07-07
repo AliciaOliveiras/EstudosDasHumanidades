@@ -20,7 +20,8 @@ function Footer() {
           gap: "1rem",
           justifyContent: "space-around",
           width: '100%',
-          color: "white"
+          color: "white",
+          textAlign: 'center'
         }}
       >
         <h5 color="white">
