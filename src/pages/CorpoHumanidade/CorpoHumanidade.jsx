@@ -52,7 +52,6 @@ export default function CorpoHumanidade() {
               maxWidth: "100%",
               textAlign: "justify",
               padding: "1rem",
-              marginLeft: "1rem",
               marginTop: "1rem",
             }}
           >
