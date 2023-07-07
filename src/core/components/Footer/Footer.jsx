@@ -11,7 +11,7 @@ function Footer() {
         padding: "1rem",
         width: "100%",
         position: 'relative',
-        bottom: 0,
+        bottom: 0, 
       }}
     >
       <div
@@ -19,30 +19,20 @@ function Footer() {
           display: "flex",
           gap: "1rem",
           justifyContent: "space-around",
-          width: '100%',
+          width: "100%",
           color: "white",
-          textAlign: 'center'
+          textAlign: "center",
         }}
       >
-        <h5 color="white">
-          Alícia
-        </h5>
+        <h5 color="white">Alícia</h5>
 
-        <h5 color="white">
-          Ana Clara
-        </h5>
+        <h5 color="white">Ana Clara</h5>
 
-        <h5 color="white">
-          Clara
-        </h5>
+        <h5 color="white">Clara</h5>
 
-        <h5  color="white">
-          Cibele
-        </h5>
+        <h5 color="white">Cibele</h5>
 
-        <h5 color="white">
-          Victoria
-        </h5>
+        <h5 color="white">Victoria</h5>
       </div>
     </div>
   );

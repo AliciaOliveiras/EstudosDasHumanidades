@@ -27,7 +27,7 @@ export default function Home() {
 
   function handlebutton2() {
     scroll(0, 0);
-    navigate("/movimentoIndigena");
+    navigate("/corpoHumanidade");
   }
 
   function handlebutton3() {
@@ -88,7 +88,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton1}
-                style={{ color: "#00695c", fontWeight: 'bold'}}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais
@@ -117,19 +117,17 @@ export default function Home() {
                 variant="h5"
                 component="div"
               >
-                Movimento Indígena
+                O Corpo na Humanidade
               </h4>
               <Typography>
-                Conjunto de movimentos sociopolíticos destinados a estabelecer
-                estratégias para reivindicar direitos e reconhecimento
-                historicamente espoliados e negados pelo Estado e pela
-                civilização dominante.
+                O que é o corpo e como ele ocupa espaço na humanidade, com suas
+                determinadas funções, ímpetos, representações e significados.
               </Typography>
             </CardContent>
             <CardActions>
               <Button
                 onClick={handlebutton2}
-                style={{ color: "#00695c", fontWeight: 'bold' }}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais
@@ -169,7 +167,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton3}
-                style={{ color: "#00695c", fontWeight: 'bold' }}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais
@@ -208,7 +206,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton4}
-                style={{ color: "#00695c", fontWeight: 'bold'}}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais
@@ -240,15 +238,14 @@ export default function Home() {
                 Visão de Humanidade
               </h4>
               <Typography>
-                Livros e produções artísticas que eternizaram a perspectiva
-                trazida por Ailton Krekak, destacando nesse tópico sua visão de
-                humanidade.
+                A perspectiva de Krenak acerca da visão de humanidade. Destaque
+                principal para o livro <i>Ideias para adiar o fim do mundo (2019).</i> 
               </Typography>
             </CardContent>
             <CardActions>
               <Button
                 onClick={handlebutton5}
-                style={{ color: "#00695c", fontWeight: 'bold' }}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais
@@ -288,7 +285,7 @@ export default function Home() {
             <CardActions>
               <Button
                 onClick={handlebutton6}
-                style={{ color: "#00695c", fontWeight: 'bold' }}
+                style={{ color: "#00695c", fontWeight: "bold" }}
                 size="small"
               >
                 Saiba mais

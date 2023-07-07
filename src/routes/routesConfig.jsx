@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../pages/home/Home";
 import AiltonKrenak from "../pages/AiltonKrenak/AiltonKrenak";
-import MovimentoIndigena from "../pages/MovimentoIndigena/MovimentoIndigena";
+import MovimentoIndigena from "../pages/CorpoHumanidade/MovimentoIndigena";
 import CorpoProtesto from "../pages/CorpoProtesto/CorpoProtesto";
 import FigurasImportantes from "../pages/FigurasImportantes/FigurasImportantes";
 import VisaoHumanidade from "../pages/VisaoHumanidade/VisaoHumanidade";

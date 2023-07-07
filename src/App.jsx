@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./core/components/Header/Header";
 import Footer from "./core/components/Footer/Footer";
 import AiltonKrenak from "./pages/AiltonKrenak/AiltonKrenak";
-import MovimentoIndigena from "./pages/MovimentoIndigena/MovimentoIndigena";
+import CorpoHumanidade from "./pages/CorpoHumanidade/CorpoHumanidade";
 import CorpoProtesto from "./pages/CorpoProtesto/CorpoProtesto";
 import FigurasImportantes from "./pages/FigurasImportantes/FigurasImportantes";
 import VisaoHumanidade from "./pages/VisaoHumanidade/VisaoHumanidade";
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/ailtonKrenak" element={<AiltonKrenak />} />
-        <Route path="/movimentoIndigena" element={<MovimentoIndigena />} />
+        <Route path="/corpoHumanidade" element={<CorpoHumanidade />} />
         <Route path="/corpoProtesto" element={<CorpoProtesto />} />
         <Route path="/figurasImportantes" element={<FigurasImportantes />} />
         <Route path="/VisaoHumanidade" element={<VisaoHumanidade />} />
